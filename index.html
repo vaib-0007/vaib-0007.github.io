@@ -3,34 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>boAt</title>
+    <title>boAt Lifestyle | Bestsellers & New Launches</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <div class="top-bar">
+        ⚡ Ends Tonight! Grab 10% Extra OFF on your first order. Use Code: BOAT10
+    </div>
+
     <header class="navbar">
-        <div class="logo">boAt</div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#">Categories</a></li>
-                <li><a href="#">Daily Deals</a></li>
-                <li><a href="#">BoAt Personalization</a></li>
-                <li><a href="#">More</a></li>
-            </ul>
-        </nav>
-        <div class="nav-icons">
-           <a href="#" title="Search">🔍</a>
-            <a href="#" title="Login">👤</a>
-            <a href="#cart" class="cart-icon" title="Cart">🛒</a>
+        <div class="nav-container">
+            <div class="logo">boAt</div>
+            <nav class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#">Categories <span>▾</span></a></li>
+                    <li><a href="#">Daily Deals</a></li>
+                    <li><a href="#">Gift with boAt</a></li>
+                    <li><a href="#">Personalization</a></li>
+                </ul>
+            </nav>
+            <div class="nav-icons">
+                <input type="text" placeholder="Search accessories..." class="search-input">
+                <a href="#" title="Profile">👤</a>
+                <a href="#" title="Wishlist">❤️</a>
+                <a href="#" title="Cart" class="cart-icon">🛒<span class="count">0</span></a>
+            </div>
         </div>
     </header>
 
     <section class="hero">
-        <div class="hero-text">
-            <h2>Immortal 131</h2>
-            <h1>Level Up Your Game</h1>
-            <p>Starting from <strong>₹999</strong></p>
-            <a href="#" class="shop-btn">Shop Now</a>
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <span class="badge-red">New Launch</span>
+                <h1>Nirvana Ion</h1>
+                <p>120 Hours Playback | Crystal Clear Calls</p>
+                <div class="hero-price">₹2,299 <span>₹7,990</span></div>
+                <a href="#" class="shop-btn">Grab Now</a>
+            </div>
         </div>
     </section>
 
@@ -38,69 +48,202 @@
         <h2 class="section-title">Shop by Categories</h2>
         <div class="category-container">
             <div class="category-item">
-                <div class="circle-img">
-                    <img src="bud.jpg" alt="Earbuds">
-                </div>
-                <p>Earbuds</p>
+                <div class="circle-img"><img src="141_ls_medium.avif" alt="Earbuds"></div>
+                <p>True Wireless</p>
             </div>
             <div class="category-item">
-                <div class="circle-img">
-                    <img src="watch.jpeg" alt="Watches">
-                </div>
+                <div class="circle-img"><img src="neck.jpg" alt="Neckbands"></div>
+                <p>Neckbands</p>
+            </div>
+            <div class="category-item">
+                <div class="circle-img"><img src="watch.jpeg" alt="Watches"></div>
                 <p>Smart Watches</p>
             </div>
             <div class="category-item">
-                <div class="circle-img">
-                    <img src="speaker.jpeg" alt="Speakers">
-                </div>
-                <p>Bluetooth Speakers</p>
+                <div class="circle-img"><img src="speaker.jpeg" alt="Speakers"></div>
+                <p>Speakers</p>
+            </div>
+            <div class="category-item">
+                <div class="circle-img"><img src="rockerz.jpeg" alt="Wired"></div>
+                <p>Wired Headphones</p>
+            </div>
+            <div class="category-item">
+                <div class="circle-img"><img src="Soundbar158.jpg" alt="Soundbars"></div>
+                <p>Soundbars</p>
             </div>
         </div>
     </section>
 
     <section class="products-section">
-        <h2 class="section-title">BestSellers</h2>
+        <div class="section-header">
+            <h2 class="section-title">Bestsellers</h2>
+            <a href="#" class="view-all">View All ➔</a>
+        </div>
         <div class="product-grid">
             <div class="product-card">
-                <span class="tag">Bestseller</span>
-                <img src="newbud.webp" alt="Airdopes 131" class="p-img">
+                <span class="p-tag orange">Engraving Available</span>
+                <img src="budd.webp" alt="Airdopes" class="p-img">
                 <div class="p-details">
+                    <div class="rating">⭐ 4.8 | 1250 reviews</div>
                     <h3>Airdopes 141</h3>
                     <div class="price-box">
-                        <span class="curr-price">₹899</span>
-                        <span class="old-price">₹2,990</span>
+                        <span class="curr-price">₹1,299</span>
+                        <span class="old-price">₹4,490</span>
+                        <span class="discount">71% off</span>
                     </div>
                     <button class="add-btn">Add To Cart</button>
                 </div>
             </div>
 
             <div class="product-card">
-                <span class="tag">New Launch</span>
-                <img src="smart.webp" alt="Watch Flash" class="p-img">
+                <span class="p-tag red">Hot Seller</span>
+                <img src="newwatch.webp" alt="Watch" class="p-img">
                 <div class="p-details">
-                    <h3>Boat Lunar Vista</h3>
+                    <div class="rating">⭐ 4.9 | 890 reviews</div>
+                    <h3>Lunar Vista</h3>
                     <div class="price-box">
-                        <span class="curr-price">₹1,499</span>
-                        <span class="old-price">₹6,990</span>
+                        <span class="curr-price">₹1,999</span>
+                        <span class="old-price">₹7,990</span>
+                        <span class="discount">75% off</span>
                     </div>
                     <button class="add-btn">Add To Cart</button>
                 </div>
             </div>
 
             <div class="product-card">
-                <span class="tag">60% OFF</span>
-                <img src="stone.jpeg" alt="Stone 1200" class="p-img">
+                <span class="p-tag black">60 Hours Battery</span>
+                <img src="Stone_580.webp" alt="Stone" class="p-img">
                 <div class="p-details">
+                    <div class="rating">⭐ 4.7 | 500 reviews</div>
                     <h3>Stone 1200</h3>
                     <div class="price-box">
                         <span class="curr-price">₹3,499</span>
                         <span class="old-price">₹6,999</span>
+                        <span class="discount">50% off</span>
+                    </div>
+                    <button class="add-btn">Add To Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <span class="p-tag blue">New Launch</span>
+                <img src="rockerz.jpg" alt="Rockerz" class="p-img">
+                <div class="p-details">
+                    <div class="rating">⭐ 4.8 | 2100 reviews</div>
+                    <h3>Rockerz 255 Pro+</h3>
+                    <div class="price-box">
+                        <span class="curr-price">₹1,199</span>
+                        <span class="old-price">₹3,990</span>
+                        <span class="discount">70% off</span>
+                    </div>
+                    <button class="add-btn">Add To Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <span class="p-tag orange">Special Edition</span>
+                <img src= "boat-storm-call-2-smartwatch.png" alt="Storm" class="p-img">
+                <div class="p-details">
+                    <div class="rating">⭐ 4.6 | 450 reviews</div>
+                    <h3>Storm Call 2</h3>
+                    <div class="price-box">
+                        <span class="curr-price">₹1,499</span>
+                        <span class="old-price">₹6,990</span>
+                        <span class="discount">78% off</span>
+                    </div>
+                    <button class="add-btn">Add To Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <span class="p-tag black">Deep Bass</span>
+                <img src="basshead.webp" alt="Bassheads" class="p-img">
+                <div class="p-details">
+                    <div class="rating">⭐ 4.9 | 5000 reviews</div>
+                    <h3>Bassheads 100</h3>
+                    <div class="price-box">
+                        <span class="curr-price">₹399</span>
+                        <span class="old-price">₹999</span>
+                        <span class="discount">60% off</span>
+                    </div>
+                    <button class="add-btn">Add To Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <span class="p-tag red">Trending</span>
+                <img src="avantae.webp" alt="Aavante" class="p-img">
+                <div class="p-details">
+                    <div class="rating">⭐ 4.8 | 320 reviews</div>
+                    <h3>Aavante Bar 610</h3>
+                    <div class="price-box">
+                        <span class="curr-price">₹1,999</span>
+                        <span class="old-price">₹5,990</span>
+                        <span class="discount">66% off</span>
+                    </div>
+                    <button class="add-btn">Add To Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <span class="p-tag black">Lowest Price</span>
+                <img src="immortal.webp" alt="Immortal" class="p-img">
+                <div class="p-details">
+                    <div class="rating">⭐ 4.7 | 150 reviews</div>
+                    <h3>Immortal 121</h3>
+                    <div class="price-box">
+                        <span class="curr-price">₹1,499</span>
+                        <span class="old-price">₹3,490</span>
+                        <span class="discount">57% off</span>
                     </div>
                     <button class="add-btn">Add To Cart</button>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="trust-section">
+        <div class="trust-item">
+            <span class="trust-icon">🚚</span>
+            <p><strong>Free Shipping</strong><br>on all orders</p>
+        </div>
+        <div class="trust-item">
+            <span class="trust-icon">🛡️</span>
+            <p><strong>1 Year Warranty</strong><br>Genuine Products</p>
+        </div>
+        <div class="trust-item">
+            <span class="trust-icon">🔄</span>
+            <p><strong>7 Days Replacement</strong><br>No Questions Asked</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h2 class="logo">boAt</h2>
+                <p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>
+                <div class="subscribe-box">
+                    <input type="email" placeholder="Enter your email">
+                    <button>SUBSCRIBE</button>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Shop</h4>
+                <a href="#">True Wireless Earbuds</a>
+                <a href="#">Smart Watches</a>
+                <a href="#">Wired Headphones</a>
+            </div>
+            <div class="footer-links">
+                <h4>Help</h4>
+                <a href="#">Track Your Order</a>
+                <a href="#">Warranty Policy</a>
+                <a href="#">Return Policy</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2025 Imagine Marketing Limited. All Rights Reserved.
+        </div>
+    </footer>
 
 </body>
 </html>
